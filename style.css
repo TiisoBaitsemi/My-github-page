@@ -1,0 +1,65 @@
+/* 1. Reset default browser spacing */
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fixed the space here */
+}
+
+/* 2. Header - The Top Bar */
+header { 
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3. Navigation - The Menu */
+nav {
+    background-color: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a { 
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f1c40f; /* Added a 'Gold' hover color to fit the Pimp My Ride theme! */
+    text-decoration: underline;
+}
+
+/* 4. Main Content Area */
+main {
+    padding: 20px;
+}
+
+/* 5. Sections - The Content Blocks */
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds a subtle depth */
+}
+
+/* 6. Products - Individual Items */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* 7. Footer - The Bottom Bar */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+ 
